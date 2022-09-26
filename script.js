@@ -27,14 +27,16 @@ function handleSubmit(event) {
     }).then(res => {
       console.log('res =>', res)
       if (res.status == 200 && res.data.status) {
-        alert('Kayıt başarılı!')
+        window.location.href="file:///Users/sunaygokceince/Desktop/form-giris/login.html"
       }
     }).catch(error => {
       console.log('error =>', error)
     })
     }
-
+    
 }
+
+
 
 
 

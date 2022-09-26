@@ -19,7 +19,7 @@ function handleSubmit(event) {
             alert('Kayıt başarılı!')
           }
      }).catch(err => {
-         console.log('eror =>', error)
+         console.log('eror =>', err)
      })
     }
 }

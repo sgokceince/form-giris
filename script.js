@@ -16,7 +16,7 @@ function handleSubmit(event) {
     if (name == "" || surname == '' || username == '' || email == '' || password == '') {
         alert('Tüm alanları eksiksiz doldurunuz!')
     } else {
-      axios.post('http://192.46.229.131/auth/register', {
+      axios.post( 'http://192.46.229.131/auth/register', {
      name: name,
      surname: surname,
      username: username,

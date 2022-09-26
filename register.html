@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Giriş</title>
+</head>
+<body>
+    <div id="kayitFormu">
+        <form onsubmit="handleSubmit(event)" method="POST">
+            <h3>KULLANICI Kayıt Formu</h3>
+            <input type="name" name="name" placeholder="İsim giriniz." />
+            <input type="lastname" name="surname" placeholder="Soyisim giriniz." />
+            <input type="username" name="username" placeholder="Kullanıcı adı giriniz." />
+            <input type="email" name="email" placeholder="Email adresinizi giriniz." />
+            <input type="password" name="password" placeholder="Şifre giriniz."/>
+            <button type="submit">Kayıt ol</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
